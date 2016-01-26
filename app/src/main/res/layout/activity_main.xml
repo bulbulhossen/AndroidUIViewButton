@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:drakeet="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.appsd.androiduiviewbutton.MainActivity">
+
+
+    <me.drakeet.uiview.UIBaseButton
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_margin="16dp"
+        android:background="@mipmap/ic_launcher"
+        drakeet:alpha_pressed="80"
+        drakeet:color_pressed="#660303ff" />
+
+    <me.drakeet.uiview.UIBaseButton
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_margin="16dp"
+        android:background="@mipmap/ic_launcher"
+        drakeet:shape_type="round" />
+
+    <me.drakeet.uiview.UIImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_margin="16dp"
+        android:src="@mipmap/ic_launcher"
+        drakeet:shape_type="round" />
+
+    <me.drakeet.uiview.UIRippleButton
+        android:layout_width="290dp"
+        android:layout_height="100dp"
+        android:layout_margin="16dp"
+
+        android:src="@mipmap/ic_launcher"
+        drakeet:shape_type="round"
+        drakeet:color_pressed="#107C10"
+        android:text="Click"
+        drakeet:radius="10dp"
+
+        />
+
+
+
+<!--    Customization
+https://github.com/bulbulhossen/AndroidUIView
+
+
+    You can change several attributes in the XML file:
+
+    drakeet:alpha_pressed [integer def:48 0-255] &ndash;&gt; Alpha of the cover color when pressed
+    drakeet:color_pressed [color def:#9c000000] &ndash;&gt; Color of the cover when pressed
+    drakeet:shape_type [enum (rectangle, round) def:rectangle] &ndash;&gt; Rectangle or round of cover or background view shape
+    drakeet:radius [dimension def:2dp] &ndash;&gt; Add a radius to the cover-->
+
+
+
+
+
+
+</LinearLayout>
